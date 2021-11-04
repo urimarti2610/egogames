@@ -1,5 +1,9 @@
 # eGoGames & UriMarti
 
+## Demo
+Hay una demo en vivo en [esta url](https://urimarti.com/egogames/)
+
+
 ## Instalar el Proyecto
 
 Primero de todo instalamos todos los `node_modules` del repositorio
@@ -58,6 +62,3 @@ Contiene todo el proyecto de React. Todo el FrontEnd entero.
 
 ##### style
 Contiene los archivos de estilo principales. Hay componentes (dentro de React/components) que tienen archivos de estilo propios.
-
-## Demo
-Hay una demo en vivo en [esta url](https://urimarti.com/egogames/)

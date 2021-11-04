@@ -31,4 +31,33 @@ Para el diseño se ha usado una configuración básica de archivos `.scss` aloja
 A la vez que cada componente tiene, si es necesario, su archivo `.scss` independiente.
 
 ### Estructura
+
+#### public
+Esta carpeta se genera automáticamente con los cambios que hay dentro de src. Excepto la carpeta resources que se ha puesto manualmente.
+
 #### src
+Contiene todos los archivos del proyecto.
+
+##### Controllers
+Contiene los controladores. Los elementos que recogen y gestionan los datos del Front.
+
+##### Data
+Contiene los datos del proyecto. Simularía ser la base de datos.
+
+##### Helpers
+Contiene listados `enum` para un buen funcionamiento del entorno en TypeScript
+
+##### Interfaces
+Contiene las `Interfaces` de todos los elementos y componentes tanto de React como de Controladores y Modelos
+
+##### Models
+Contiene los Modelos de los objetos usados. Sus declaraciones y métodos.
+
+##### React
+Contiene todo el proyecto de React. Todo el FrontEnd entero.
+
+##### style
+Contiene los archivos de estilo principales. Hay componentes (dentro de React/components) que tienen archivos de estilo propios.
+
+## Demo
+Hay una demo en vivo en [esta url](https://urimarti.com/egogames/)

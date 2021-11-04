@@ -9,11 +9,20 @@ import GameList from "../components/Game/GameList";
 import Search from "../components/Search/Search";
 
 const GameListPage = () => {
+
     const [gameList, setGameList] = useState(getGames())
     const [filters, setFilters] = useState(getFilters())
     const [search, setSearch] = useState('')
+    const [check, setCheck] = useState(true)
 
     useEffect(() => filterProducts(), [filters, search])
+    useEffect(() => setCheck(doCheck()), [gameList])
+
+    const doCheck = ():boolean => {
+        const trueFalse = gameList.map(v => v.visible === true)
+        const filter = trueFalse.filter(v => v === true)
+        return filter.length > 0
+    }
 
     const filterProducts = (): void => {
         const searched = search.trim().toLowerCase()
@@ -58,7 +67,7 @@ const GameListPage = () => {
     return <React.Fragment>
         <Search action={setSearch} search={search} />
         <FilterGame action={swapFilter} filters={filters} />
-        <GameList list={gameList} />
+        <GameList check={check} list={gameList} />
     </React.Fragment>
 }
 

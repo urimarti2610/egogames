@@ -23,6 +23,10 @@
                 width: 50px;
             }
         }
+        &.no-game {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
     }
     h1,
     h2,

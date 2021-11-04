@@ -13,7 +13,7 @@ const Search = (props: ISearch) => {
     }
 
     return <div className="search">
-        <input type="text" placeholder="Search" onChange={handleSearch} value={search} />
+        <input type="text" placeholder="Buscar" onChange={handleSearch} value={search} />
     </div>
 }
 

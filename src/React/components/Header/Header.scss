@@ -1,0 +1,31 @@
+@import '../../../style/variables.scss';
+@import '../../../style/colors.scss';
+@import '../../../style/fonts.scss';
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-info;
+    a:not(#logo) {
+        display: inline-block;
+        padding: $padding;
+        color: white;
+        text-decoration: none;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        &:hover,
+        &.active {
+            font-weight: $font-bold;
+            &::before {
+                content: "";
+                border-bottom: 2px solid;
+                width: 100%;
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+}

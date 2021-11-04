@@ -1,0 +1,14 @@
+@use 'sass:math';
+@import '../../../style/variables.scss';
+@import '../../../style/colors.scss';
+@import '../../../style/fonts.scss';
+.copyright {
+    a {
+        margin: math.div($padding, 2);
+        color: $font-color;
+        text-decoration: none;
+        &:hover {
+            font-weight: $font-bold;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@use 'sass:math';
+@import '../../../style/variables.scss';
+.social-links {
+    width: 100%;
+    text-align: center;
+    a {
+        padding: $padding math.div($padding, 2);
+        display: inline-block;
+    }
+}

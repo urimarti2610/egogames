@@ -1,0 +1,161 @@
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss ***!
+  \*********************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap);
+/*!*************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss (1) ***!
+  \*************************************************************************************************************************************************************/
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+body section {
+  overflow-x: hidden;
+  background-color: #1e1e1e;
+  color: #e5e5e5;
+  font-family: "Barlow";
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  font-size: 1eM;
+  line-height: 1.2eM;
+}
+body section *,
+body section *:active,
+body section *:visited {
+  color: #e5e5e5;
+}
+body section .light {
+  background: #252526;
+}
+body section .menu-left {
+  padding: 1.5eM;
+}
+body section .main {
+  padding: 1.5eM;
+  padding-bottom: 4.5eM;
+  width: 750px;
+  max-width: 90%;
+}
+body section.theme-light {
+  background-color: #e1e1e1;
+  color: #1a1a1a;
+}
+body section.theme-light *,
+body section.theme-light *:active,
+body section.theme-light *:visited {
+  color: #1a1a1a;
+}
+body section.theme-light .light {
+  background: #dadad9;
+}
+body section.theme-light .btn.btn-primary {
+  color: #e5e5e5;
+  background-color: #1e1e1e;
+}
+body section.theme-light .btn.btn-primary:hover {
+  color: #1e1e1e;
+  background-color: #e5e5e5;
+}
+body section.theme-light .btn.btn-seconday {
+  background-color: #e5e5e5;
+  color: #1e1e1e;
+}
+body section.theme-light .btn.btn-seconday:hover {
+  background-color: #1e1e1e;
+  color: #e5e5e5;
+}
+body section .btn {
+  padding: 0.5eM 0.8eM;
+  border-radius: 3px;
+  display: inline-block;
+  border: 1px solid;
+  transition: 0.2s ease all;
+  cursor: pointer;
+}
+body section .btn.btn-primary {
+  background-color: #e5e5e5;
+  color: #1e1e1e;
+}
+body section .btn.btn-primary:hover {
+  background-color: #1e1e1e;
+  color: #e5e5e5;
+}
+body section .btn.btn-seconday {
+  color: #e5e5e5;
+  background-color: #1e1e1e;
+}
+body section .btn.btn-seconday:hover {
+  color: #1e1e1e;
+  background-color: #e5e5e5;
+}
+body section .float-right {
+  float: right;
+  margin-left: auto;
+}
+body section .flex {
+  display: flex;
+}
+body section .flex.align-center {
+  align-items: center;
+}
+body section .flex.justify-center {
+  justify-content: center;
+}
+body section .flex.wrap {
+  flex-wrap: wrap;
+}
+body section .w-100 {
+  width: 100%;
+}
+body section .justify {
+  text-align: justify;
+}
+body section .success,
+body section .success > * {
+  color: #22c382 !important;
+}
+body section .info,
+body section .info > * {
+  color: #29b8db !important;
+}
+body section .danger,
+body section .danger > * {
+  color: #f14c4c !important;
+}
+body section .warning,
+body section .warning > * {
+  color: #f5f543 !important;
+}
+body section h1 {
+  font-size: 2.9eM;
+}
+body section h2 {
+  font-size: 2.6eM;
+}
+body section h3 {
+  font-size: 2.5eM;
+}
+body section h4 {
+  font-size: 2eM;
+}
+body section h1,
+body section h2,
+body section h3,
+body section h4,
+body section h5 {
+  margin: 0.375eM 0;
+  line-height: 1eM;
+}
+
+@media screen and (max-width: 768px) {
+  body .page {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}

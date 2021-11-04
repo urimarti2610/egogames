@@ -1,0 +1,16 @@
+@use 'sass:math';
+@import '../../../style/variables.scss';
+@import '../../../style/fonts.scss';
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $padding;
+    input {
+        padding: math.div($padding, 2);
+        font-size: $font-size;
+        width: 100%;
+        text-align: center;
+    }
+}
